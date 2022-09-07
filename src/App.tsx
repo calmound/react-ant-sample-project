@@ -34,7 +34,7 @@ function App() {
         {/* 右侧内容区域 */}
         <Layout className="site-layout">
           <Header className="site-layout-background" style={{ padding: 0 }} />
-          <Content style={{ margin: '0 16px' }}>
+          <Content>
             <Routes>
               <>
                 {
@@ -43,7 +43,7 @@ function App() {
               </>
             </Routes>
           </Content>
-          <Footer style={{ textAlign: 'center', background: '#fff' }}>sanmu ©2022</Footer>
+          <Footer>有问题欢迎加 vx： sanmu1598</Footer>
         </Layout>
       </Layout>
 
