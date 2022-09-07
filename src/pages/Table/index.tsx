@@ -1,4 +1,5 @@
 import { Table } from 'antd'
+import { Link } from 'react-router-dom';
 
 const TablePage = () => {
     const dataSource = [
@@ -24,7 +25,7 @@ const TablePage = () => {
             title: 'Action',
             dataIndex: '',
             key: 'x',
-            render: () => <a>Delete</a>,
+            render: () => <Link to="/detail">查看</Link>,
         },
     ];
 

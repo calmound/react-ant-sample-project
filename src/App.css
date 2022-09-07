@@ -1,5 +1,11 @@
-.index-page-title {
-  font-size: 50px;
-  display: flex;
-  align-items: center;
+body {
+    background: #fff;
+}
+
+#root .ant-layout {
+    background: #fff;
+}
+
+.ant-layout-content {
+    background: #fff;
 }
