@@ -21,7 +21,6 @@ const { TextArea } = Input;
 const FormPage = () => {
     const [componentDisabled, setComponentDisabled] = useState<boolean>(true);
     const onFormLayoutChange = ({ disabled }: { disabled: boolean }) => {
-        console.log('%c [ disabled ]-24', 'font-size:13px; background:pink; color:#bf2c9f;', disabled)
       setComponentDisabled(disabled);
     };
 

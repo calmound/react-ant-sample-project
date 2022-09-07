@@ -4,8 +4,6 @@ import { Avatar, Layout, Menu } from 'antd';
 import logo from './logo.svg';
 import './App.css';
 
-import Index from './pages/Index'
-import About from './pages/About'
 import STATIC_ROUTES from './routes';
 
 import 'antd/dist/antd.css';
@@ -18,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Layout style={{ minHeight: '100vh' }}>
+        {/* 左侧导航栏 */}
         <Sider>
           <div className="logo">
             <Avatar src={logo} size={60} />
@@ -32,6 +31,7 @@ function App() {
               navigate(value.key)
             }} />
         </Sider>
+        {/* 右侧内容区域 */}
         <Layout className="site-layout">
           <Header className="site-layout-background" style={{ padding: 0 }} />
           <Content style={{ margin: '0 16px' }}>
@@ -43,7 +43,7 @@ function App() {
               </>
             </Routes>
           </Content>
-          <Footer style={{ textAlign: 'center', background: '#fff' }}>Ant Design ©2018 Created by Ant UED</Footer>
+          <Footer style={{ textAlign: 'center', background: '#fff' }}>sanmu ©2022</Footer>
         </Layout>
       </Layout>
 
